@@ -1,0 +1,75 @@
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 40px auto;
+}
+
+.container h2 {
+  font-size: 28px;
+  font-weight: 800;
+  color: #1d1d1d;
+  margin-bottom: 30px;
+}
+
+.bannerRow {
+  display: flex;
+  gap: 20px;
+}
+
+.bannerCard {
+  flex: 1;
+  display: flex;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  height: 140px;
+}
+
+.textSide {
+  flex: 6;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.textSide h3 {
+  color: white;
+  font-size: 18px;
+  font-weight: 800;
+  margin: 0 0 8px 0;
+}
+
+.textSide p {
+  color: #ccc;
+  font-size: 13px;
+  margin: 0 0 16px 0;
+  line-height: 1.4;
+}
+
+.knowMore {
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.iconSide {
+  flex: 4;
+  clip-path: circle(120% at 100% 50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.iconSide img {
+  width: 80px;
+  height: 80px;
+  transition: transform 0.3s;
+}
+
+.bannerCard:hover .iconSide img {
+  transform: scale(1.1);
+}

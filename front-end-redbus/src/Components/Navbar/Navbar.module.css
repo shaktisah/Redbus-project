@@ -1,0 +1,120 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.Navbar {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+  height: 80px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-sizing: border-box;
+}
+
+.leftSide_header {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.logo {
+  cursor: pointer;
+  height: 48px;
+  margin-right: 40px;
+}
+
+.Navbar__listOne {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.Navbar__listOne li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  height: 100%;
+  cursor: pointer;
+  color: #4a4a4a;
+  font-weight: 600;
+  font-size: 14px;
+  transition: all 0.2s;
+}
+
+.Navbar__listOne li:hover {
+  background-color: #f8f8f8;
+}
+
+.Navbar__listOne li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.activeLink {
+  color: #d84e55 !important;
+  border-bottom: 4px solid #d84e55;
+  background-color: #f8f8f8;
+}
+
+.iconWrapper {
+  margin-bottom: 4px;
+}
+
+.iconWrapper img {
+  height: 24px;
+}
+
+.Navbar__listTwo {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.rightSide_header {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.navItemRight {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  cursor: pointer;
+  color: #3e3e52;
+  font-weight: 500;
+  font-size: 14px;
+  transition: color 0.2s;
+  height: 100%;
+}
+
+.navItemRight:hover {
+  color: #d84e55;
+}
+
+.navIcon {
+  margin-right: 8px;
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.accountDropdown {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.icons {
+  font-size: 24px;
+  margin-left: 4px;
+}

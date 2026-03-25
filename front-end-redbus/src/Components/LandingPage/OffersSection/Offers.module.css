@@ -1,0 +1,115 @@
+.offersContainer {
+  width: 90%;
+  max-width: 1200px;
+  margin: 40px auto;
+  background: white;
+  border-radius: 24px;
+  padding: 30px 40px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  box-sizing: border-box;
+}
+
+.offersHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.offersHeader h2 {
+  font-size: 28px;
+  font-weight: 800;
+  color: #1d1d1d;
+  margin: 0;
+}
+
+.viewAll {
+  color: #1034d9;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.offersScroll {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+
+.offersScroll::-webkit-scrollbar {
+  display: none;
+}
+
+.offerCard {
+  min-width: 320px;
+  border-radius: 16px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.headerRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.busPill {
+  background: rgba(0,0,0,0.08);
+  color: #1d1d1d;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 4px 10px;
+  border-radius: 12px;
+}
+
+.logoTiny {
+  height: 16px;
+  opacity: 0.8;
+}
+
+.cardContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.cardContent h3 {
+  font-size: 16px;
+  font-weight: 800;
+  color: #1d1d1d;
+  margin: 0 0 8px 0;
+  line-height: 1.3;
+}
+
+.cardContent p {
+  font-size: 13px;
+  color: #666;
+  margin: 0 0 15px 0;
+}
+
+.codeBox {
+  border: 1px dashed #d84e55;
+  background: rgba(255,255,255,0.7);
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 12px;
+  display: inline-block;
+}
+
+.codeBox b {
+  font-weight: 800;
+  color: #1d1d1d;
+}
+
+.promoImg {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}

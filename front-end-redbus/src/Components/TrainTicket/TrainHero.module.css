@@ -1,0 +1,175 @@
+.heroWrapper {
+  background: linear-gradient(135deg, #4f1017 0%, #d84e55 100%);
+  position: relative;
+  overflow: visible;
+  padding-bottom: 80px;
+}
+
+.heroContent {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px 200px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.heroText h1 {
+  color: white;
+  font-size: 36px;
+  font-weight: 800;
+  margin: 0 0 16px 0;
+}
+
+.irctcBadge {
+  display: inline-flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 6px 12px;
+  border-radius: 6px;
+  gap: 8px;
+}
+
+.irctcBadge img {
+  height: 24px;
+}
+
+.irctcBadge span {
+  color: #3e3e52;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.heroImage img {
+  width: 400px;
+  margin-top: -20px;
+}
+
+.searchCard {
+  max-width: 1000px;
+  background: white;
+  border-radius: 32px;
+  padding: 30px 40px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+  margin: 0 auto;
+  margin-top: -150px;
+  position: relative;
+  z-index: 10;
+}
+
+.radioGroup {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+}
+
+.radioLabel {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.radioLabel input[type="radio"] {
+  accent-color: #d84e55;
+  width: 20px;
+  height: 20px;
+}
+
+.radioText {
+  font-weight: bold;
+  font-size: 16px;
+  color: #3e3e52;
+}
+
+.searchInputs {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 10px 20px;
+  background: white;
+}
+
+.inputBox {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  border-right: 1px solid #eee;
+}
+
+.inputBox:last-child {
+  border-right: none;
+}
+
+.optInBox {
+  padding-left: 20px;
+}
+
+.label {
+  font-size: 12px;
+  color: #7e7e8c;
+  margin-bottom: 4px;
+}
+
+.cleanInput {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: #3e3e52;
+  width: 100%;
+}
+
+.cleanInput::placeholder {
+  color: #ccc;
+  font-weight: normal;
+}
+
+.iconReverse {
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: #999;
+  cursor: pointer;
+  z-index: 2;
+  margin: 0 -16px;
+}
+
+.checkboxWrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.checkboxWrapper input {
+  width: 18px;
+  height: 18px;
+  accent-color: #d84e55;
+}
+
+.searchBtn {
+  position: absolute;
+  bottom: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #d84e55;
+  color: white;
+  border: none;
+  padding: 16px 48px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 8px 16px rgba(216,78,85,0.4);
+}

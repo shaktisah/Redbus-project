@@ -1,0 +1,116 @@
+.featuresContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  margin-top: 80px;
+}
+
+.sectionTitle {
+  font-size: 24px;
+  font-weight: 800;
+  color: #3e3e52;
+  margin-bottom: 20px;
+}
+
+.offersScroll {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding-bottom: 20px;
+  scroll-behavior: smooth;
+}
+
+.offersScroll::-webkit-scrollbar {
+  display: none;
+}
+
+.offerCard {
+  min-width: 300px;
+  height: 160px;
+  border-radius: 16px;
+  padding: 24px;
+  color: white;
+  position: relative;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.promoTag {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 11px;
+  font-weight: bold;
+  align-self: flex-start;
+  margin-bottom: 12px;
+}
+
+.offerCard h3 {
+  margin: 0 0 4px 0;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.offerCard p {
+  margin: 0 0 16px 0;
+  font-size: 14px;
+  opacity: 0.9;
+  flex: 1;
+}
+
+.codeBox {
+  background: rgba(255, 255, 255, 0.9);
+  color: #333;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  align-self: flex-start;
+  font-weight: 500;
+}
+
+.whySection {
+  margin-top: 80px;
+  padding: 40px;
+  background: white;
+  border-radius: 24px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+}
+
+.benefitsGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.benefitItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.iconCircle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.benefitItem h4 {
+  font-size: 18px;
+  font-weight: 800;
+  color: #3e3e52;
+  margin: 0 0 12px 0;
+}
+
+.benefitItem p {
+  font-size: 14px;
+  color: #7e7e8c;
+  line-height: 1.6;
+  margin: 0;
+}
